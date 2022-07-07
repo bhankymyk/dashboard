@@ -1,3 +1,12 @@
 body {
   margin: 0;
+  padding: 0;
+  background-color: #f2f4f7 !important ; 
+}
+.box-head{
+  box-shadow: 0 0 1px rgb(0 0 13%),0 0 3px rgb(0 0 20%) !important;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
 }
