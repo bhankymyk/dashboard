@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faUserCog, faUserTie, faUserGraduate, faCheck, faForward, faFileContract, faUsers, faKey, faCog, faUserEdit, faSignOut } from '@fortawesome/free-solid-svg-icons'
+import Calendar from 'react-calendar'
+import 'react-calendar/dist/Calendar.css'
 
 function Home() {
+    const [value, onChange] = useState(new Date());
   return (
     <>
     
@@ -109,6 +112,12 @@ function Home() {
         </div>
     </div>
 
+        {/* Calendar */}
+    <div className='col-md-12' >
+    <Calendar onChange={onChange} value={value} />
+    </div>
+
+
 
     
 
@@ -118,4 +127,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;

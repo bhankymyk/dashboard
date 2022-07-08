@@ -64,3 +64,6 @@ h3{
   color: #6c757d;
   margin-bottom: 1rem;
 }
+.react-calendar{
+  width: fit-content !important ;
+}
