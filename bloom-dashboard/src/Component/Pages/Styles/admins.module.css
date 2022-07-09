@@ -1,0 +1,45 @@
+.subHeader{
+/* color: blueviolet; */
+/* justify-content: end !important ; */
+/* float: right; */
+display: flex;
+/* width: 170vh; */
+/* background-color: black; */
+}
+.subHeader1{
+    display: flex;
+    justify-content: end;
+    color: #007bff;
+    /* float: right; */
+    width: 200vh;
+}
+.cog{
+    line-height: 10px;
+    color: #fff;
+    font-weight: 900;
+    background-color: #007bff;
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}  
+.infoBox{
+    font-size: 14px;
+    white-space: nowrap;
+}
+.btn{
+    padding: 0 !important ;
+}
+ul li{
+    list-style-type: none;
+    padding: 3px;
+    width: fit-content;
+}
+ul{
+    padding-left: 0.3rem;
+}
+.mainHead{
+    width: 30%;
+}

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { ClockIcon } from './icons/clock.svg';
-import { CalenderIcon } from './icons/calendar.svg';
+import { ReactComponent as ClockIcon } from './icons/clock.svg';
+import { ReactComponent as CalenderIcon } from './icons/calendar.svg';
 
 function Watch() {
 	const [dateState, setDateState] = useState(new Date());

@@ -3,12 +3,14 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faUserCog, faUserTie, faUserGraduate, faCheck, faForward, faFileContract, faUsers, faKey, faCog, faUserEdit, faSignOut } from '@fortawesome/free-solid-svg-icons'
 import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css'
+import { Link } from "react-router-dom"
 
 function Home() {
     const [value, onChange] = useState(new Date());
   return (
     <>
-    
+    <h5 className='p-3' >Dashboard </h5>
+    <hr/>
     <div className='row d-flex mx-auto mt-5'>
         <div className="col-md-3 col-sm-12 bg-light mx-auto box-head">
             <div className="cog">
@@ -36,7 +38,11 @@ function Home() {
             <div className="icon-2">
             <FontAwesomeIcon size={'3x'} icon={faUserCog}/>
             </div>
-            <h3>Admins</h3>
+            <Link to="/admins">
+            <button>
+                 <h3>Admins</h3>
+                  </button>
+            </Link>
         </div>
         <div className="col-md-3 col-sm-12 bg-light mx-auto box-head-2">
             <div className="icon-2">

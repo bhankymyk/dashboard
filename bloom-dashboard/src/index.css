@@ -1,7 +1,7 @@
 body {
-  margin: 0;
-  padding: 0;
   background-color: #f2f4f7 !important ; 
+  padding: 0;
+  margin: 0;
 }
 .box-head{
   margin-bottom: 1rem;
@@ -66,4 +66,20 @@ h3{
 }
 .react-calendar{
   width: fit-content !important ;
+}
+.topbar{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  padding: 10px; 
+}
+.sub{
+  justify-content: end !important ;
+  width: 170vh;
+}
+hr{
+  color: #17a2b8 !important ;
+  opacity: 1 !important ;
+}
+button{
+  border: none;
+
 }
