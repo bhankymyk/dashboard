@@ -35,26 +35,28 @@ function Home() {
 
     <div className='row d-flex mx-auto mt-5'>
         <div className="col-md-3 col-sm-12 bg-light mx-auto  box-head-1">
+            <Link to="/admins">
             <div className="icon-2">
             <FontAwesomeIcon size={'3x'} icon={faUserCog}/>
             </div>
-            <Link to="/admins">
-            <button>
                  <h3>Admins</h3>
-                  </button>
             </Link>
         </div>
         <div className="col-md-3 col-sm-12 bg-light mx-auto box-head-2">
+            <Link to="/teachers">
             <div className="icon-2">
         <FontAwesomeIcon size={'3x'} icon={faUserTie} />
             </div>
             <h3>Teachers</h3>
+            </Link>
         </div>
         <div className="col-md-3 col-sm-12 bg-light mx-auto box-head-3">
+            <Link to="/students">
             <div className="icon-2">
         <FontAwesomeIcon  size={'3x'} icon={faUserGraduate} />
             </div>
          <h3>Admit Student</h3>
+         </Link>
         </div>
     </div>
 

@@ -43,3 +43,6 @@ ul{
 .mainHead{
     width: 30%;
 }
+.heading{
+    white-space: nowrap;
+}

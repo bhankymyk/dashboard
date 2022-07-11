@@ -3,6 +3,9 @@
   margin: 0  ;
   box-sizing: border-box !important ;
 }
+.container{
+  padding: 0 !important ;
+}
 /* .App {
   min-height: 100vh;
   background-color: #2d3436;

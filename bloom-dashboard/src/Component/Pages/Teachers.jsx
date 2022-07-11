@@ -6,25 +6,25 @@ import Breadcrumb from 'react-bootstrap/Breadcrumb'
 import { BreadcrumbItem } from 'react-bootstrap';
 import Dropdown from 'react-bootstrap/Dropdown'
 import Table from 'react-bootstrap/Table'
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom'
 // import Header from './Header'
 
 function Admins() {
   return (
     <>
     <div className={`mt-3 ${styles.subHeader}`}>
-    <h2 className=''>Admins</h2>
+    <h2 className='heading'>Teachers</h2>
       <div className={styles.subHeader1}>
       <Breadcrumb>
-      <BreadcrumbItem> <Link to="/">Home</Link></BreadcrumbItem>
+      <BreadcrumbItem><Link to="/">Home</Link></BreadcrumbItem>
       <BreadcrumbItem><Link to="/">Dashboard</Link></BreadcrumbItem>
-      <BreadcrumbItem>Admin</BreadcrumbItem>
+      <BreadcrumbItem>Teachers</BreadcrumbItem>
       </Breadcrumb>
       </div>
     </div>
     <div className={`p-2 ${styles.cog}`}>
             <FontAwesomeIcon size={'2x'} icon={faUserCog}/>
-            <span className={`pt-5 ${styles.infoBox}`}> Add admins</span> 
+            <span className={`pt-5 ${styles.infoBox}`}> Add Teachers</span> 
     </div>
 
 <div className={styles.mainHead}>
@@ -42,11 +42,16 @@ function Admins() {
     <Dropdown.Item href="#/action-3">Email</Dropdown.Item>
     <Dropdown.Item href="#/action-3">Phone</Dropdown.Item>
     <Dropdown.Item href="#/action-3">Status</Dropdown.Item>
-    <Dropdown.Item href="#/action-3">....</Dropdown.Item>
+    <Dropdown.Item href="#/action-3">...</Dropdown.Item>
   </Dropdown.Menu>
 </Dropdown>
   </li>
 </ul>
+</div>
+<div className="search-box float-right mb-5">
+    <label htmlFor="search"> Search:
+    <input type="search" className='search'/>
+    </label>
 </div>
     
 <div>
