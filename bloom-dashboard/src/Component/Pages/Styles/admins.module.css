@@ -8,7 +8,7 @@ display: flex;
 }
 .subHeader1{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     color: #007bff;
     /* float: right; */
     width: 200vh;
